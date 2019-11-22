@@ -3,8 +3,8 @@ pipeline {
        agent { label 'java-build' }
        tools {
 	
-	maven "maven"
-        jdk "jdk"
+	maven "M2_HOME"
+        jdk "java8"
 
 	}
 
