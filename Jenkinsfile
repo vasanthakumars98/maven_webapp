@@ -7,7 +7,7 @@ pipeline {
         jdk "java8"
 
 	}
-
+	stages{
    	stage("Cloning frm git") {
 		steps {
 		 echo "am cloing frm git"                
@@ -28,4 +28,5 @@ pipeline {
 		
 		}
 	}
+}
 }
