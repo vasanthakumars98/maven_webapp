@@ -10,7 +10,8 @@ pipeline {
 	stages{
    	stage("Cloning frm git") {
 		steps {
-		 echo "am cloing frm git"                
+		 echo "am cloing frm git"  
+	         git credentialsId: '631ec87d-9500-49f8-a051-f8ae78c22d16', url: 'https://github.com/vasanthakumars98/vasanth.git'
 		}
 
 	}
