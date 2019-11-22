@@ -1,6 +1,6 @@
 pipeline {
 
-       agent { label 'master' }
+       agent { label 'java-build' }
        tools {
 	
 	maven "maven"
