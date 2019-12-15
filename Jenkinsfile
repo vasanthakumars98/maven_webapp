@@ -6,7 +6,7 @@ pipeline {
 	maven "M2_HOME"
         jdk "java8"
 	//java8 "JAVA_HOME"
-        env.JAVA_HOME = "/usr/bin/java -version"
+        env.JAVA_HOME = '/usr/bin/java -version'
 	
 	}
 	stages{
