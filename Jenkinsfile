@@ -4,7 +4,7 @@ pipeline {
        tools {
 	
 	maven "M2_HOME"
-        jdk "/usr/bin/java/java8"
+        jdk "java8"
 
 	}
 	stages{
