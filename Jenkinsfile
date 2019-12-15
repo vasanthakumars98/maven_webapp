@@ -6,7 +6,7 @@ pipeline {
 	maven "M2_HOME"
         jdk "java8"
 	       
-	stages {
+	stages{
 		stage("Build using maven") {
  		steps {
                  echo "am building using maven"
@@ -15,12 +15,12 @@ pipeline {
 
 	}
 
-	       stage("Results") {
-               steps {
-    		echo "this is a test stage"
+	        stage("Results") {
+                steps {
+    		 echo "this is a test stage"
 		
 		}
 	}
-   }
-  }
+	}
+       }
 }
