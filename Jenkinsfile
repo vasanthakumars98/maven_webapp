@@ -14,6 +14,7 @@ pipeline {
  		steps {
                  echo "am building using maven"
 		 sh 'mvn install'
+	         env.JAVA_HOME = "/usr/bin/java"
 		}
 
 	}
