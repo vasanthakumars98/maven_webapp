@@ -6,8 +6,7 @@ pipeline {
 	maven "M2_HOME"
         //jdk "java8"
         env.JAVA_HOME = "/usr/bin/java"
-	echo "jdk installation path is: ${jdk}"
-	sh "${jdk}/usr/bin/java -version"
+	sh "/usr/bin/java -version"
 	sh '$JAVA_HOME/usr/bin/java -version'
 	}
 	stages{
