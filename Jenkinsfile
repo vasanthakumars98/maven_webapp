@@ -4,9 +4,9 @@ pipeline {
        tools {
 	
 	maven "M2_HOME"
-        jdk "JAVA_HOME"
+        jdk "java8"
 	//java8 "JAVA_HOME"
-        //env.JAVA_HOME = "/usr/bin/java"
+        env.JAVA_HOME = "/usr/bin/java"
 	
 	}
 	stages{
