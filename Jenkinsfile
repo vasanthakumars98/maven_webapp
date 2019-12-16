@@ -5,6 +5,7 @@ pipeline {
 	
 	maven "M2_HOME"
         jdk "java8"
+       }
 	       
        stages{
 		stage("Build using maven") {
