@@ -11,6 +11,7 @@ pipeline {
 		stage("Build using maven") {
  		    steps {
                       echo "am building using maven"
+		      sh 'ls -ltr'
 		      sh 'mvn install'
 		}
 
